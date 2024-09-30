@@ -34,3 +34,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+
+API: https://6nihsx7zna.execute-api.eu-west-2.amazonaws.com/dev
+eg: https://6nihsx7zna.execute-api.eu-west-2.amazonaws.com/dev/api/1das
+
+
+
+ns-1673.awsdns-17.co.uk
+ns-345.awsdns-43.com
+ns-749.awsdns-29.net
+ns-1134.awsdns-13.org
+
+cname: _34d721419738c6af87cef38bfa2db597
+cname value: _6c58c00cd1c647236dcb4254da2097f6.djqtsrsxkq.acm-validations.aws

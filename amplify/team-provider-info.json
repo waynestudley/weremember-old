@@ -14,6 +14,15 @@
     "categories": {
       "auth": {
         "weremeberb733a088": {}
+      },
+      "function": {
+        "weremeberb637c6ce": {
+          "deploymentBucketName": "amplify-weremeber-dev-8d7e5-deployment",
+          "s3Key": "amplify-builds/weremeberb637c6ce-7842516c31645643776c-build.zip"
+        }
+      },
+      "api": {
+        "were": {}
       }
     }
   }
