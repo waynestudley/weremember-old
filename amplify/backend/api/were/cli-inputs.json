@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/api/{id}": {
+      "name": "/api/{id}",
+      "lambdaFunction": "weremeberb637c6ce",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

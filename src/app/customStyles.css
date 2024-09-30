@@ -1,0 +1,25 @@
+/* Customize the background of the Authenticator modal */
+.amplify-authenticator {
+  background-color: #FC0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Customize buttons */
+.amplify-button {
+  border-radius: 5px;
+  background-color: #FF6F61;
+  color: white;
+}
+
+.amplify-button:hover {
+  background-color: #FF4F41;
+  border: 1px solid #ccc;
+}
+
+/* Customize the input fields */
+.amplify-input {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}

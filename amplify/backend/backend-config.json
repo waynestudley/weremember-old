@@ -1,4 +1,20 @@
 {
+  "api": {
+    "were": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "weremeberb637c6ce"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
   "auth": {
     "weremeberb733a088": {
       "customAuth": false,
@@ -25,6 +41,31 @@
       },
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
+    }
+  },
+  "function": {
+    "weremeberb637c6ce": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_weremeberb637c6ce_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "weremeberb637c6ce"
+        }
+      ]
+    },
+    "AMPLIFY_function_weremeberb637c6ce_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "weremeberb637c6ce"
+        }
+      ]
     }
   }
 }
