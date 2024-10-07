@@ -7,7 +7,17 @@ import '@aws-amplify/ui-react/styles.css'
 import awsExports from '../aws-exports'
 import './customStyles.css' 
 
+import { getCurrentUser } from 'aws-amplify/auth';
+
+
 Amplify.configure(awsExports)
+
+const { username, userId, signInDetails } = await getCurrentUser();
+
+console.log("username", username);
+console.log("user id", userId);
+console.log("sign-in details", signInDetails);
+
 
 
 const theme = {
@@ -60,6 +70,9 @@ function App() {
                 Sign Out
               </button>
             </header>
+            <a href="posts">POSts</a>
+            <br />
+            <a href="test">test</a>
           </main>
         )}
       </Authenticator>

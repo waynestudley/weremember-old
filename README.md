@@ -50,3 +50,5 @@ ns-1134.awsdns-13.org
 
 cname: _34d721419738c6af87cef38bfa2db597
 cname value: _6c58c00cd1c647236dcb4254da2097f6.djqtsrsxkq.acm-validations.aws
+
+Session Identifier: d774fd58-4df2-49d7-8acb-fbbb12aec68c    --  ???
